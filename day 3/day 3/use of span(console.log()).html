@@ -1,0 +1,22 @@
+<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+<script>
+    $(document).ready(function()
+    {
+        console.log("Document is ready....");
+       $("#fact").click(function(){
+        console.log("Button Clicked...");
+           var n=parseInt($("#num").val()); //getter
+           var f=1;
+           for(i=1;i<=n;i++){
+               f=f*i;
+           }
+           console.log("result calculated...");
+           var result= "factorial of "+n+" is "+f ;
+           $("#result").html(result); //setter
+       });  
+    });
+</script>
+
+Number <input type="text" id="num" size="20"><br>
+<span id="result" > </span>
+<input type="button" value="Factorial" id="fact">
