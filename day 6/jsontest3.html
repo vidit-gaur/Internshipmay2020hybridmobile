@@ -1,0 +1,20 @@
+
+<div id="data"></div>
+
+<script>
+   var s={"students":[
+   {"rollno":"2018bcs1174","name":"vidit gaur","course":"Btech(CSE)"},
+   {"rollno":"2018bcs1175","name":"xyz","course":"Btech(CSE)"},
+   {"rollno":"2018bcs1176","name":"abc","course":"Btech(CSE)"}
+   ]};
+   alert("number of students: "+s.students.length);
+   var out="<table border ='1' align='center'>";
+   for(i=0;i<s.students.length;i++){
+       out+="<tr><td>"+s.students[i].rollno+"<td>"+s.students[i].name+"<td>"+s.students[i].course+"</tr>";
+
+   }
+  
+    out+="</table>";
+      document.getElementById("data").innerHTML=out;
+
+</script>

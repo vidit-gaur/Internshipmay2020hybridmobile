@@ -1,0 +1,21 @@
+
+
+<script>
+    var s={"students":[
+    {"rollno":"2018bcs1174","name":"vidit gaur","course":"Btech(CSE)"},
+    {"rollno":"2018bcs1175","name":"xyz","course":"Btech(CSE)"},
+    {"rollno":"2018bcs1176","name":"abc","course":"Btech(CSE)"}
+    ]};
+    alert("number of students: "+s.students.length);
+    for(i=0;i<s.students.length;i++){
+        alert(s.students[i].rollno+","+s.students[i].name+","+s.students[i].course)
+
+    }
+  /*  document.getElementById("rollno").innerHTML=s.rollno;
+    document.getElementById("name").innerHTML=s.name;
+    document.getElementById("course").innerHTML=s.course;
+
+    var cdata=JSON.stringify(s);
+    document.getElementById("data").innerHTML=cdata;
+*/
+</script>
