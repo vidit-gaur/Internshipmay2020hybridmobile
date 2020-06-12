@@ -35,14 +35,15 @@ const styles = StyleSheet.create({
   },
   
   input: {
+  textAlign:'center',
   margin: 15,
   height: 40,
-  borderColor: '#7a42f4',
-  borderWidth: 1
+  borderColor: 'black',
+  borderWidth: 2
   },
 
   factorialButton: {
-    backgroundColor: '#7a42f4',
+    backgroundColor: 'darkolivegreen',
     padding: 10,
     margin: 15,
     height: 40,
